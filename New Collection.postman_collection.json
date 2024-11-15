@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "bf2882b7-f856-436f-979a-13245000ab9d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39143867"
+	},
+	"item": [
+		{
+			"name": "https://lesson-completion.postmanlabs.com/submit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"jadhavshashikant677@gmail.com\",\r\n  \"postmanCollectionJsonUrl\": \"{{submission}}\",\r\n  \"publishedCourseId\": \"2q2jokzsn62y8\",\r\n  \"lessonId\": \"go6mgkytvk8u\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lesson-completion.postmanlabs.com/submit",
+					"protocol": "https",
+					"host": [
+						"lesson-completion",
+						"postmanlabs",
+						"com"
+					],
+					"path": [
+						"submit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
